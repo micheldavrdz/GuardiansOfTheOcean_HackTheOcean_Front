@@ -23,22 +23,23 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto ">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <router-link to="/">
-            <a class="nav-link" href="#"
-              >Inicio <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link">Home<span class="sr-only">(current)</span></a>
           </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
+          <a class="nav-link" @click="goto('nosotros')" href="#"
+          >Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
+          <a class="nav-link" @click="goto('ong')" href="#">ONG's</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
+          <a class="nav-link" @click="goto('especies')" href="#"
+            >Especies en Peligro</a
+          >
         </li>
       </ul>
     </div>
@@ -51,8 +52,16 @@ nav {
 }
 </style>
 
+<script>
 export default {
-  name: 'Navbar',
-  components: {
+  name: 'NavBar',
+  methods: {
+    goto(refName) {
+      const element = this.$refs[refName];
+      console.log(element);
+      const top = element.offsetTop;
+      window.scrollTo(0, top);
+    },
   },
 };
+</script>
