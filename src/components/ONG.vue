@@ -112,7 +112,7 @@ h1 {
 }
 .card {
   margin: 5rem 1rem;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 12px 12px;
   border: none;
 }
 img {
