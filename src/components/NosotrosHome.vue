@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-dark">
+  <section class="bg-dark" id="nosotros" ref="nosotros">
     <div class="container py-5">
       <div class="row h-100 align-items-center py-5">
         <div class="col-lg-6 d-none d-lg-block">
