@@ -2,17 +2,35 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-4" v-for="especie in especies"
-            v-bind:key="especie.IdAnimal">
+        <div
+          class="col-md-4"
+          v-for="especie in especies"
+          v-bind:key="especie.IdAnimal"
+        >
           <div class="card">
             <img
               class="card-img-top"
-              v-bind:src= especie.LinkImagen
-              alt='Imagen de {{ especie.Nombre }}'
+              v-bind:src="especie.LinkImagen"
+              v-bind:alt="especie.Nombre"
             />
             <div class="card-body">
-              <h5 class="card-title">{{ especie.Nombre }}</h5>
-              <button type="button" class="btn btn-primary">Leer mas</button>
+              <h4 class="card-title">{{ especie.Nombre }}</h4>
+              <details>
+                <summary>Leer mas</summary>
+                <div class="color-bl">
+                  <h5>Descripción</h5>
+                  <p class="card-text text-justify">{{ especie.DescripcionAnimal }}</p>
+                  <br>
+                  <h5>Ubicación Preliminar</h5>
+                  <p class="card-text text-justify">{{ especie.UbicacionPreliminar }}</p>
+                  <br>
+                  <h5>Estado de Peligro</h5>
+                  <p class="card-text">{{ especie.EstadoDePeligro }}</p>
+                  <br>
+                  <h5>Causa del Peligro</h5>
+                  <p class="card-text text-justify">{{ especie.CausaDePeligro }}</p>
+                </div>
+              </details>
             </div>
           </div>
         </div>
@@ -22,7 +40,7 @@
 </template>
 
 <style scoped>
-.card-img-top{
+.card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
@@ -34,13 +52,13 @@
   background: #1e293b;
   color: #f1f1f1;
 }
-.card-body a{
+.card-body a {
   font-size: 1em;
   font-weight: bold;
   color: #f1f1f1;
   text-decoration: none;
 }
-.card-body a:hover{
+.card-body a:hover {
   color: #eabd56;
 }
 .card {
@@ -52,16 +70,42 @@ img {
   border-radius: 10px 10px 0px 0px;
 }
 
-.btn-primary {
+h5{
+  color: #f1f1f1;
+  font-weight: 700;
+}
+
+details {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   background: #eabd56;
   border-color: #eabd56;
   color: #1e293b;
 }
 
-.btn-primary:hover {
+details summary {
+  cursor: pointer;
+}
+
+details p{
+  color: #f1f1f1;
+
+}
+
+details .color-bl{
   background: #1e293b;
-  border-color: #eabd56;
-  color: #eabd56;
+  border-radius: 10px;
+  padding: .6rem;
 }
 </style>
 
