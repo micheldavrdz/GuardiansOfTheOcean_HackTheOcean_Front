@@ -2,7 +2,7 @@
 
 El repositorio del backend puede visualizarse mediante [este enlace](https://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back).
 
-El despliegue de este aplicativo puede visitarse en el siguiente enlace: [https://guardiansoftheocean.netlify/](https://guardiansoftheocean.netlify.app/#/).
+El despliegue de este sitio web puede visitarse en el siguiente enlace: [https://guardiansoftheocean.netlify/](https://guardiansoftheocean.netlify.app/#/).
 
 # Problemática central
 
@@ -28,3 +28,12 @@ graph TD
     http-common.js-->animales-api.herokuapp.com/HackTheOcean;
     end
 ```
+# Descripcion de cada vista
+
+## HomeView
+
+Es la vista de nuestro sitio al solo entrar, compuesto por un nav que nos dirigirán a diferentes partes de nuestro sitio, una pequeña descripción de Guardians of the Ocean, ONGś de interés para la preservación de las especies en peligro de extinción, una sección con unos ejemplos de los animales en peligro de extinción junto a un botón que nos lleva a la siguiente pagina donde se nos muestra la lista completa de los animales en peligro de extinción.
+
+## EspeciesView
+
+Esta es una vista donde mostramos todos los animales en peligro de extinción obtenido por una API creada por nuestro equipo de backend, que mostrando cada especie con foto, nombre, descripción, ubicación, estado de peligro y la causa de peligro.
