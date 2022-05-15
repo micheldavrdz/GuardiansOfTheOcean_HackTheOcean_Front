@@ -1,5 +1,5 @@
 <template>
-  <section class="parallax">
+  <section class="parallax" id="ong" ref="ong">
     <div class="container">
       <div class="title">
         <h1>ONG's</h1>

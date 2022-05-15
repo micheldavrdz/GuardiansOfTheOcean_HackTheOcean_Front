@@ -1,5 +1,5 @@
 <template>
-  <section class="parallax">
+  <section class="parallax" id="especies" ref="especies">
     <div class="container">
       <div class="title">
         <h1>Especies en peligro de extinción</h1>
