@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="parallax">
     <div class="container">
       <div class="title">
         <h1>Especies en peligro de extinción</h1>
@@ -72,6 +72,13 @@
 </template>
 
 <style scoped>
+.parallax{
+  background-image: url("../assets/img/oceano.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-weight: 900;
   font-size: 3.5rem;

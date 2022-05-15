@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark">
+  <section class="bg-dark">
     <div class="container py-5">
       <div class="row h-100 align-items-center py-5">
         <div class="col-lg-6 d-none d-lg-block">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

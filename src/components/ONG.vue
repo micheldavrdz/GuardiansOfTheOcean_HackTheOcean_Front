@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="parallax">
     <div class="container">
       <div class="title">
         <h1>ONG's</h1>
@@ -68,6 +68,14 @@
 </template>
 
 <style scoped>
+.parallax{
+  background-image: linear-gradient(to bottom, rgba(202, 202, 202, 0.52), rgba(0, 0, 0, 0.73)),
+    url('../assets/img/organizaciones.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-weight: 900;
   font-size: 5rem;
