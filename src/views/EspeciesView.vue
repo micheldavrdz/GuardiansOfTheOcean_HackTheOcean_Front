@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>Aqui iran los animales</h1>
-  </div>
+  <EspeciesList/>
 </template>
+
+<script>
+// @ is an alias to /src
+import EspeciesList from '@/components/Especies/EspeciesList.vue';
+
+export default {
+  name: 'EspeciesView',
+  components: {
+    EspeciesList,
+  },
+};
+</script>

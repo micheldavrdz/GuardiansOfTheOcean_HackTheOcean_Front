@@ -38,6 +38,11 @@
           <a class="nav-link" href="#">Link 2</a>
         </li>
         <li class="nav-item">
+          <router-link to="/especies">
+            <a class="nav-link" href="#"
+              >Especies</a
+            >
+          </router-link>
           <a class="nav-link" href="#">Link 3</a>
         </li>
       </ul>
