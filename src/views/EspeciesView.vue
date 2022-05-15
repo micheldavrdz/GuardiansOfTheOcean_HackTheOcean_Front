@@ -13,8 +13,8 @@ import Footer from '@/components/FooterHome.vue';
 export default {
   name: 'EspeciesView',
   components: {
-    EspeciesList,
     Navbar,
+    EspeciesList,
     Footer,
   },
 };

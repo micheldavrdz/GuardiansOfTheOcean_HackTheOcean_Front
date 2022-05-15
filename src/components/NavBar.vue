@@ -26,24 +26,19 @@
       <ul class="navbar-nav ml-auto ">
         <li class="nav-item active">
           <router-link to="/">
-            <a class="nav-link" href="#"
-              >Inicio <span class="sr-only">(current)</span></a
+            <a class="nav-link"
+              >Home<span class="sr-only">(current)</span></a
             >
           </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
+          <a class="nav-link" href="#">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
+          <a class="nav-link" href="#">ONG's</a>
         </li>
         <li class="nav-item">
-          <router-link to="/especies">
-            <a class="nav-link" href="#"
-              >Especies</a
-            >
-          </router-link>
-          <a class="nav-link" href="#">Link 3</a>
+            <a class="nav-link" href="#">Especies en Peligro</a>
         </li>
       </ul>
     </div>
