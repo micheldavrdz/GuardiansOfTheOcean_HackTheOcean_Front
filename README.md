@@ -2,7 +2,7 @@
 
 El repositorio del backend puede visualizarse mediante [este enlace](https://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back).
 
-El despliegue de este aplicativo puede visitarse en el siguiente enlace: [https://animales-api.herokuapp.com/](https://animales-api.herokuapp.com/).
+El despliegue de este aplicativo puede visitarse en el siguiente enlace: [https://guardiansoftheocean.netlify/](https://guardiansoftheocean.netlify.app/#/).
 
 # Problemática central
 
