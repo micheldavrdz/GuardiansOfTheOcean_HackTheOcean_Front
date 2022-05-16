@@ -21,7 +21,7 @@
                 Las actividades del proyecto incluyen monitoreo en la playa de
                 anidación, investigación, educación y capacitación.
               </p>
-              <a href="http://www.akazul.org/" target="_blank">SITIO WEB</a>
+              <a href="https://facebook.com/akazulguatemala/" target="_blank">SITIO WEB</a>
             </div>
           </div>
         </div>
@@ -119,6 +119,8 @@ img {
   border-radius: 10px 10px 0px 0px;
 }
 .card-img-top {
+  width: 100%;
+  height: 18rem;
   object-fit: cover;
 }
 </style>
