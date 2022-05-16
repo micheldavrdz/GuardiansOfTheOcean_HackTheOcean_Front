@@ -30,16 +30,9 @@
           </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" @click="goto('nosotros')" href="#"
-          >Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" @click="goto('ong')" href="#">ONG's</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" @click="goto('especies')" href="#"
-            >Especies en Peligro</a
-          >
+          <router-link to="/especies">
+            <a class="nav-link">Especies en Peligro</a>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -55,13 +48,7 @@ nav {
 <script>
 export default {
   name: 'NavBar',
-  methods: {
-    goto(refName) {
-      const element = this.$refs[refName];
-      console.log(element);
-      const top = element.offsetTop;
-      window.scrollTo(0, top);
-    },
+  components: {
   },
 };
 </script>
