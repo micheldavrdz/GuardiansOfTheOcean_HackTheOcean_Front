@@ -18,6 +18,24 @@ Dado el desconocimiento que existe sobre este hábitat y, por ende, una indifere
 
 Dar a conocer por medio de la pagina web, la problemática de la extinción de los animales marinos, el cuales son estas especies, por que se están extinguiendo y en que estado se encuentran, se busca concientizar el gran daño que se le esta haciendo a la fauna marina y que de no hacer nada, la fauna marina desaparecería
 
+# Despliegue de la aplicación
+
+1. Clona este repositorio en tu máquina descargando el .zip o utilizando `git clone`:
+
+`git clone https://github.com/micheldavrdz/GuardiansOfTheOcean_HackTheOcean_Front`
+
+2. Estando dentro de la carpeta raíz, ejecuta el siguiente comando para instalar las dependencias:
+
+`npm install`
+
+3. Para realizar pruebas locales, ejecuta el servidor con el siguiente comando:
+
+`npm run serve`
+
+4. Para obtener una copia lista para producción, ejecuta el siguiente comando:
+
+`npm run build`
+
 # Conexión del Frontend con la API
 
 ```mermaid
