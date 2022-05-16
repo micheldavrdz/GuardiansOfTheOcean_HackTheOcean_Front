@@ -37,3 +37,25 @@ Es la vista de nuestro sitio al solo entrar, compuesto por un nav que nos dirigi
 ## EspeciesView
 
 Esta es una vista donde mostramos todos los animales en peligro de extinción obtenido por una API creada por nuestro equipo de backend, que mostrando cada especie con foto, nombre, descripción, ubicación, estado de peligro y la causa de peligro.
+
+# Despliegue de la aplicación
+
+# Dependencias utilziadas
+| Dependencia Utilizada | Uso para el sitio |
+| ------------- | ------------- |
+| Axios  | Hacer solicitudes a un servidor   |
+| Bootsrap  | Desarrollo de la parte visual y estetica |
+| popper  | Crear etiquetas con información para un determinado elemento  |
+| vue  | Framework para crear la interfaz de usuario  |
+
+# Prueba de despliegue
+
+## Vista principal
+![Vista principal](https://raw.githubusercontent.com/alfonso-ramos/GotO/master/index.png)
+
+## Vista de lista de las especies
+![Vista de especies](https://raw.githubusercontent.com/alfonso-ramos/GotO/master/especies.png)
+
+# Escalabilidad
+
+Se propone a futuro seguir mejorando el sitio, el contactar ONGś para obtener mas información de especies en peligro de extinción como imágenes, estados actualizados del peligro de la especie, población total de la especie, etc, al igual que buscar colaborar para ayudar a preservar especie
