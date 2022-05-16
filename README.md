@@ -63,10 +63,10 @@ Esta es una vista donde mostramos todos los animales en peligro de extinción ob
 # Dependencias utilziadas
 | Dependencia Utilizada | Versión |Uso para el sitio |
 | ------------- | ------------- |------------- |
-| Axios  | 0.26.1 |Hacer solicitudes a un servidor   |
-| Bootsrap  | 4.6.0 | Desarrollo de la parte visual y estetica |
-| popper  | 1.16.1 | Crear etiquetas con información para un determinado elemento  |
-| vue  | 3.2.13 |Framework para crear la interfaz de usuario  |
+| Axios  | 0.26.1 | Hacer solicitudes a un servidor   |
+| Bootstrap  | 4.6.0 | Desarrollo de la parte visual y estetica |
+| Popper  | 1.16.1 | Crear etiquetas con información para un determinado elemento  |
+| Vue.JS  | 3.2.13 | Framework para crear la interfaz de usuario  |
 
 # Prueba de despliegue
 
